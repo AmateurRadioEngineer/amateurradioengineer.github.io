@@ -47,7 +47,7 @@ The format is CSV with the first column being the binary data as a string and th
 
 [Download challenge data](./parity-challenge-1.csv)
 
-<details>
+<details markdown="block">
     <summary>Show challenge data</summary>
 
   ```csv
@@ -94,7 +94,7 @@ The format is CSV with the first column being the binary data as a string, the s
 
 [Download solution](./parity-solution-1.csv)
 
-<details>
+<details markdown="block">
   <summary>Show solution</summary>
 
   ```csv
@@ -145,7 +145,7 @@ The format is CSV with the first column being the binary data as a string.
 
 [Download challenge data](./parity-challenge-2.csv)
 
-<details>
+<details markdown="block">
     <summary>Show challenge data</summary>
 
   ```csv
@@ -192,7 +192,7 @@ The format is CSV with the first column being the binary data as a string and th
 
 [Download solution](./parity-solution-2.csv)
 
-<details>
+<details markdown="block">
   <summary>Show solution</summary>
 
   ```csv
