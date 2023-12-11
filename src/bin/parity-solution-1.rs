@@ -23,11 +23,9 @@ struct Output {
 }
 
 fn main() -> Result<(), Box<dyn Error>> {
-    let mut csv_reader =
-        csv::Reader::from_path("challenges/error-detection/parity-challenge-1.csv")?;
+    let mut csv_reader = csv::Reader::from_path("docs/error-detection/parity-challenge-1.csv")?;
 
-    let mut csv_writer =
-        csv::Writer::from_path("challenges/error-detection/parity-solution-1.csv")?;
+    let mut csv_writer = csv::Writer::from_path("docs/error-detection/parity-solution-1.csv")?;
 
     for record in csv_reader.deserialize::<Input>() {
         let input = record?;

@@ -14,8 +14,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let mut bytes = [0u8; 32];
     rng.fill_bytes(&mut bytes);
 
-    let mut csv_writer =
-        csv::Writer::from_path("challenges/error-detection/parity-challenge-1.csv")?;
+    let mut csv_writer = csv::Writer::from_path("docs/error-detection/parity-challenge-1.csv")?;
 
     for byte in bytes {
         csv_writer.serialize(Output {
